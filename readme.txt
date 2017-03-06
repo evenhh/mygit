@@ -1,1 +1,1 @@
-git is a free software which is used for version control
+git is a free software which is used for distributed version control  system
