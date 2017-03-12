@@ -1,6 +1,7 @@
 #--*--coding:utf-8--*--
 '''
    a script for monitor stock price
+   need 3 arguments:stock code  buy_price,and who you want to send messages
 '''
 import tushare as  ts 
 import itchat
@@ -31,4 +32,4 @@ if __name__=="__main__":
 		msg=get_msg(code,price)
 		if msg :
 			send_msg(msg,to_user)
-		time.sleep(10)
+		time.sleep(60)
